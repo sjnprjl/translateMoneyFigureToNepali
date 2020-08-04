@@ -1,10 +1,6 @@
 class ConvertToNepali {
     constructor(number) {
         this.number = number.toString();
-        this.withDecimal = this.number.split(".");
-        this.nepaliVowel = "अ आ इ ई उ ऊ ऋ ए ऐ ओ औ अं अः".split(" ")
-        this.nepaliNumber = "०,१,२,३,४,५,६,७,८,९".split(",")
-        this.nepaliConsonant = "क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह क्ष त्र ज्".split(" ")
     }
     figure() {
         let numSplit = this.number.split("")
