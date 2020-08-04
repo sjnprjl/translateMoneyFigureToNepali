@@ -163,7 +163,3 @@ class ConvertToNepali {
 
     }
 }
-let toNepali = new ConvertToNepali(5015)
-document.write(toNepali.figure())
-document.write("</br>")
-document.write(toNepali.word())
